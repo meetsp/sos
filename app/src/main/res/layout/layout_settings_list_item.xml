@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/settings_list_item_layout">
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/settings_list_item_image"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/setting_list_content_description"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/settings_list_item_textview"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:gravity="start"
+            android:paddingTop="8dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+    </TableRow>
+
+</TableLayout>
